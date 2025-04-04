@@ -13,11 +13,11 @@ export const routes: Routes = [
     },
     {
         path:'login',
-        component: LoginComponent
+        component:LoginComponent
     },
     {
         path:'',
-        component: LayoutComponent,
+        component:LayoutComponent,
         children:[
             {
                 path:'dashboard',
